@@ -7,20 +7,21 @@ const emailEncoded = encodeURIComponent(`${EMAIL_ACCOUNT}:${EMAIL_PASS}`);
 const mail_sender = nodemailer.createTransport(`smtps://${emailEncoded}@${EMAIL_SERVER}`);
 
 const makeContactUsEmail = (form) => {
+  console.log(process.env)
   return {
     from: `"${process.env.EMAIL_USER}" <${process.env.EMAIL_ACCOUNT}>`,
     to: process.env.CONTACT_US_SEND_TO_EMAIL,
     subject: `Inquiry Received - ${form.email}`,
     html: `<p>Name: ${form.name}</p>
            <p>Email: ${form.email}</p>
-           <p>Content: ${form.content}</p>`,
+           <p>Message: ${form.message}</p>`,
   };
 };
 
 /* GET home page. */
 router.post('/', function(req, res, next) {
-  console.log(req)
-  const message = makeContactUsEmail(form);
+  const message = makeContactUsEmail(req.body);
+  console.log(message)
   mail_sender.sendMail(message).then(function(response) {
     console.log(response);
     if (response.accepted.length > 0) {
