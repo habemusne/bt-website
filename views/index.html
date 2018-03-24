@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9 | !IE]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>BlockTrain</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel='stylesheet' href='/stylesheets/bootstrap.min.css'>
+  <link rel='stylesheet' href='/stylesheets/vendor.css'>
+  <link rel='stylesheet' href='/stylesheets/style-brown.css'> <!-- style-brown.css, style-blue.css, style-orange.css, style-green.css -->
+  <link rel='stylesheet' href='/stylesheets/custom.css'> <!-- custom style -->
+  <script src="/javascripts/vendor/modernizr-2.8.3.min.js"></script>
+  <!--[if lte IE 9]><!-->
+  <script src='/javascripts/vendor/html5shiv.min.js'></script>
+  <!--<![endif]-->
+</head>
+<body>
+
+  <div class="site-loader _multi-circle-line">
+    <div class="site-loader-spinner"></div>
+    <div class="site-loader-section _right"></div>
+    <div class="site-loader-section _left"></div>
+  </div> <!-- .site-loader -->
+
+  <div class="site">
+    <nav class="m-nav">
+      <div class="m-nav-tb">
+        <div class="m-nav-tb-cell">
+          <!-- mobile menu will clone inside here by js script -->
+        </div>
+      </div>
+    </nav> <!-- m-nav -->
+
+    <header class="site-header text-light">
+      <div class="site-header-container container">
+        <div class="site-header-brand">
+          <img class="site-header-brand-img" src="images/logo.jpg" alt="">
+        </div> <!-- .site-header-brand -->
+
+        <nav class="site-header-nav">
+          <div class="primary-menu">
+            <ul class="primary-menu-list nav">
+              <li class="primary-menu-item">
+                <a href="#home"><span>Home</span></a>
+              </li>
+              <li class="primary-menu-item">
+                <a href="#feature"><span>Feature</span></a>
+              </li>
+              <li class="primary-menu-item">
+                <a href="#app-brief-1"><span>Why Us</span></a>
+              </li>
+              <li class="primary-menu-item">
+                <a href="#app-brief-2"><span>What We Do</span></a>
+              </li>
+              <li class="primary-menu-item">
+                <a href="#download"><span>Download</span></a>
+              </li>
+              <li class="primary-menu-item">
+                <a href="#contact"><span>Contact</span></a>
+              </li>
+            </ul>
+          </div> <!-- .primary-menu -->
+
+          <div class="icon-menu">
+            <ul class="icon-menu-list">
+              <li class="icon-menu-item audio-toggle">
+                <a class="audio-toggle-link" href="#">
+                  <i class="ion-android-volume-up"></i>
+                </a> <!-- .audio-toggle -->
+              </li>
+              <li class="icon-menu-item hidden-md hidden-lg">
+                <a class="m-nav-toggle" href="#">
+                  <i class="ion-android-menu"></i>
+                 </a> <!-- .site-off-canvas-right-toggle -->
+              </li>
+            </ul>
+          </div> <!-- .icon-menu -->
+
+        </nav> <!-- .site-header-nav -->
+      </div>
+    </header> <!-- .site-header -->
+
+    <main class="site-content">
+      <div id="home" class="section text-light">
+        <div class="site-bg">
+          <div class="site-bg-img"></div>
+          <div class="site-bg-video"></div>
+          <div class="site-bg-overlay"></div>
+          <div class="site-bg-effect"></div>
+          <canvas class="site-bg-canvas"></canvas>
+        </div> <!-- .site bg -->
+
+        <div class="section-table">
+          <div class="section-cell">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-md-7 col-lg-6" data-equal-height="1">
+                  <div class="equal-height-cell">
+                    <h1 class="section-title">We are creating smart <span class="color">websites.</span></h1>
+                    <p class="m-t-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus, quis volutpat urna consequat.</p>
+                    <div class="m-t-space">
+                      <a href="#"><img class="m-t-5" src="images/item/app-store.png" alt=""></a>
+                      <a href="#"><img class="m-t-5" src="images/item/google-play.png" alt=""></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-5 col-lg-offset-1" data-equal-height="1">
+                  <div class="equal-height-cell">
+                    <div class="double-device _right">
+                      <img src="images/device/phone-01.png" class="double-device-front" alt="">
+                      <img src="images/device/phone-02.png" class="double-device-back wow animated fadeInLeftScale90" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- #home -->
+
+      <div id="feature" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="text-center max-width-640">
+                <h3 class="section-subtitle">App Overview</h3>
+                <h2 class="section-title">Our Features<span class="color">.</span></h2>
+                <p class="m-t-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus.</p>
+              </div>
+              <ul class="feature feature-list row m-t-space">
+                <li class="feature-item col-xs-12 col-md-6 col-md-4">
+                  <div class="feature-box">
+                    <div class="feature-icon">
+                      <i class="ion-ios-lightbulb-outline"></i>
+                    </div>
+                    <h3 class="feature-title">Full responsive</h3>
+                    <p class="feature-content">Lorem ipsum dolor sit amet consectetur, elit adipiscing.</p>
+                  </div>
+                </li>
+                <li class="feature-item col-xs-12 col-md-6 col-md-4">
+                  <div class="feature-box">
+                    <div class="feature-icon">
+                      <i class="ion-ios-game-controller-b-outline"></i>
+                    </div>
+                    <h3 class="feature-title">Easy To Use</h3>
+                    <p class="feature-content">Lorem ipsum dolor sit amet consectetur, elit adipiscing.</p>
+                  </div>
+                </li>
+                <li class="feature-item col-xs-12 col-md-6 col-md-4">
+                  <div class="feature-box">
+                    <div class="feature-icon">
+                      <i class="ion-ios-compose-outline"></i>
+                    </div>
+                    <h3 class="feature-title">Valid HTML5</h3>
+                    <p class="feature-content">Lorem ipsum dolor sit amet consectetur, elit adipiscing.</p>
+                  </div>
+                </li>
+                <li class="feature-item col-xs-12 col-md-6 col-md-4">
+                  <div class="feature-box">
+                    <div class="feature-icon">
+                      <i class="ion-ios-speedometer-outline"></i>
+                    </div>
+                    <h3 class="feature-title">Mobile Optimization</h3>
+                    <p class="feature-content">Lorem ipsum dolor sit amet consectetur, elit adipiscing.</p>
+                  </div>
+                </li>
+                <li class="feature-item col-xs-12 col-md-6 col-md-4">
+                  <div class="feature-box">
+                    <div class="feature-icon">
+                      <i class="ion-ios-camera-outline"></i>
+                    </div>
+                    <h3 class="feature-title">Multi Effect</h3>
+                    <p class="feature-content">Lorem ipsum dolor sit amet consectetur, elit adipiscing.</p>
+                  </div>
+                </li>
+                <li class="feature-item col-xs-12 col-md-6 col-md-4">
+                  <div class="feature-box">
+                    <div class="feature-icon">
+                      <i class="ion-ios-flame-outline"></i>
+                    </div>
+                    <h3 class="feature-title">Fast Support</h3>
+                    <p class="feature-content">Lorem ipsum dolor sit amet consectetur, elit adipiscing.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> <!-- #feature -->
+
+      <div id="app-brief-1" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-6 col-md-offset-1 float-right-md-min" data-equal-height="2">
+              <div class="equal-height-cell">
+                <h3 class="section-subtitle">Why choose us?</h3>
+                <h2 class="section-title">We build websites that work, <span class="color">really work.</span></h2>
+                <p class="m-t-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus, quis volutpat urna consequats.</p>
+                <div class="selling-point">
+                  <ul class="selling-point-list">
+                    <li class="selling-point-item"><i class="ion-ios-checkmark"></i>View photos of business listings</li>
+                    <li class="selling-point-item"><i class="ion-ios-checkmark"></i>Call any business by just one tap</li>
+                    <li class="selling-point-item"><i class="ion-ios-checkmark"></i>Sort your search results by attributes</li>
+                    <li class="selling-point-item"><i class="ion-ios-checkmark"></i>Add your business listing FREE of charge</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-5" data-equal-height="2">
+              <div class="equal-height-cell">
+                <div class="double-device _left">
+                  <img src="images/device/phone-03.png" class="double-device-front" alt="">
+                  <img src="images/device/phone-04.png" class="double-device-back wow animated fadeInLeftScale90" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- #app-brief-1-->
+
+      <div id="app-brief-2" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-6" data-equal-height="3">
+              <div class="equal-height-cell">
+                <h3 class="section-subtitle">What we do?</h3>
+                <h2 class="section-title">We build websites that will build your <span class="color">business.</span></h2>
+                <p class="m-t-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus, quis volutpat urna consequat et. Aenean rutrum dui in turpis feugiat</p>
+                <p>facilisis dui laoreet. Nunc vestibulum nisi in dolor suscipit consectetur. Morbi pulvinar, magna vel sollicitudin porttitor, nulla nulla semper turpis.</p>
+                <ul class="service service-list row">
+                  <li class="service-item col-xs-6 col-sm-3 wow animated bounceIn" data-wow-delay=".1s">
+                    <div class="service-icon">
+                      <i class="ion-ios-speedometer-outline"></i>
+                    </div>
+                    <h5 class="service-title">Speed</h5>
+                  </li>
+                  <li class="service-item col-xs-6 col-sm-3 wow animated bounceIn" data-wow-delay=".2s">
+                    <div class="service-icon">
+                      <i class="ion-ios-film-outline"></i>
+                    </div>
+                    <h5 class="service-title">Photo</h5>
+                  </li>
+                  <li class="service-item col-xs-6 col-sm-3 wow animated bounceIn" data-wow-delay=".3s">
+                    <div class="service-icon">
+                      <i class="ion-ios-chatboxes-outline"></i>
+                    </div>
+                    <h5 class="service-title">Chat</h5>
+                  </li>
+                  <li class="service-item col-xs-6 col-sm-3 wow animated bounceIn" data-wow-delay=".4s">
+                    <div class="service-icon">
+                      <i class="ion-ios-people-outline"></i>
+                    </div>
+                    <h5 class="service-title">Social</h5>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-5 col-md-offset-1" data-equal-height="3">
+              <div class="equal-height-cell">
+                <div class="double-device _right">
+                  <img src="images/device/screen-01.jpg" class="double-device-front" alt="">
+                  <img src="images/device/screen-02.jpg" class="double-device-back wow animated fadeInLeftScale90" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- #app-brief-2 -->
+
+      <div id="download" class="section text-light" data-stellar-background-ratio=".5">
+        <div class="section-overlay"></div>
+        <div class="container">
+          <div class="row relative">
+            <div class="col-md-6 float-right-md-min">
+              <h3 class="section-subtitle">Download available</h3>
+              <h2 class="section-title">Get our app for your mobile devices, check it out <span class="color">now!</span></h2>
+              <p class="m-t-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus.</p>
+              <div class="m-t-space">
+                <a href="#"><img class="m-t-5" src="images/item/app-store.png" alt=""></a>
+                <a href="#"><img class="m-t-5" src="images/item/google-play.png" alt=""></a>
+              </div>
+            </div>
+            <div id="donload-device" class="double-device _left _bottom">
+              <img src="images/device/phone-01.png" class="double-device-front" alt="">
+              <img src="images/device/phone-02.png" class="double-device-back wow animated fadeInUpScale90" alt="">
+            </div>
+          </div>
+        </div>
+      </div> <!-- #download -->
+
+      <div id="contact" class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="text-center max-width-640">
+                <h3 class="section-subtitle">Contact us</h3>
+                <h2 class="section-title">Get in touch<span class="color">.</span></h2>
+                <p class="m-t-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus.</p>
+              </div>
+              <ul class="contact-info contact-info-list row max-width-960 text-center">
+                <li class="contact-info-item col-xs-12 col-md-6 col-md-4">
+                  <div class="contact-info-box">
+                    <div class="contact-info-icon">
+                      <i class="ion-ios-telephone-outline"></i>
+                    </div>
+                    <h3 class="contact-info-title">Call us</h3>
+                    <p class="contact-info-content">
+                      (+0) 123-456-7890
+                      <br>
+                      (+1) 123-456-7890
+                    </p>
+                  </div>
+                </li>
+                <li class="contact-info-item col-xs-12 col-md-6 col-md-4">
+                  <div class="contact-info-box">
+                    <div class="contact-info-icon">
+                      <i class="ion-ios-filing-outline"></i>
+                    </div>
+                    <h3 class="contact-info-title">Write us</h3>
+                    <p class="contact-info-content">
+                      email1@example.com
+                      <br>
+                      email2@example.com
+                    </p>
+                  </div>
+                </li>
+                <li class="contact-info-item col-xs-12 col-md-6 col-md-4">
+                  <div class="contact-info-box">
+                    <div class="contact-info-icon">
+                      <i class="ion-ios-location-outline"></i>
+                    </div>
+                    <h3 class="contact-info-title">Visit us</h3>
+                    <p class="contact-info-content">631 Main Street Cottage, Long Branch, P.O Box 55016</p>
+                  </div>
+                </li>
+              </ul> <!-- .contact-info -->
+
+              <form class="form-theme max-width-960" id="contactForm" novalidate="novalidate">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group required">
+                      <label class="form-label" for="contactName">Name</label>
+                      <input class="form-control" id="contactName" type="text" name="name">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group required">
+                      <label class="form-label" for="contactEmail">Email</label>
+                      <input class="form-control" id="contactEmail" type="text" name="email">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group required">
+                  <label class="form-label" for="contactMessage">Message</label>
+                  <textarea class="form-control" id="contactMessage" rows="5" name="message"></textarea>
+                </div>
+                <button type="submit" class="btn _theme">
+                  <span>Send Message</span>
+                  <i class="ion-forward"></i>
+                </button>
+                <div class="form-notify"></div>
+              </form> <!-- #contactForm -->
+            </div>
+          </div>
+        </div>
+      </div> <!-- #contact -->
+    </main> <!-- .site-content -->
+
+    <footer class="site-footer text-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="site-footer-brand">
+              <img class="site-footer-brand-img" src="images/site-footer-brand.png" alt="">
+            </div> <!-- .site-footer-brand -->
+            <div class="social m-t-space">
+              <ul class="social-list">
+                <li class="social-item wow animated fadeInUp" data-wow-duration="0.5s">
+                  <a href="https://www.facebook.com/" target="_blank"><i class="ion-social-facebook"></i></a>
+                </li>
+                <li class="social-item wow animated rollIn" data-wow-delay="0.2s" data-wow-duration="0.5s">
+                  <a href="https://twitter.com/" target="_blank"><i class="ion-social-twitter"></i></a>
+                </li>
+                <li class="social-item wow animated rollIn" data-wow-delay="0.3s" data-wow-duration="0.5s">
+                  <a href="https://plus.google.com/" target="_blank"><i class="ion-social-googleplus"></i></a>
+                </li>
+                <li class="social-item wow animated rollIn" data-wow-delay="0.4s" data-wow-duration="0.5s">
+                  <a href="https://www.linkedin.com/" target="_blank"><i class="ion-social-linkedin"></i></a>
+                </li>
+                <li class="social-item wow animated rollIn" data-wow-delay="0.5s" data-wow-duration="0.5s">
+                  <a href="https://dribbble.com/" target="_blank"><i class="ion-social-dribbble"></i></a>
+                </li>
+              </ul>
+              <p class="copyright m-t-space">
+                2015 @ <a href="#" target="_blank">Bonefishcode</a> | All rights Reserved.
+              </p>
+            </div> <!-- .social -->
+          </div>
+        </div>
+      </div>
+    </footer> <!-- .site-footer -->
+  </div> <!-- .site -->
+
+  <!-- script -->
+  <script src="/javascripts/vendor/jquery-1.11.3.min.js"></script>
+  <script src='/javascripts/vendor/bootstrap.min.js'></script>
+  <script src='/javascripts/vendor/plugin.js'></script>
+  <script src='/javascripts/variable.js'></script>
+  <script src='/javascripts/main.js'></script>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <!--
+  <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+  </script>
+  -->
+  <!-- /script -->
+
+</body>
+</html>
