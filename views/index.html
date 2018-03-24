@@ -1,433 +1,500 @@
 <!DOCTYPE html>
-<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
-<!--[if gt IE 9 | !IE]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>BlockTrain</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="icon" href="images/favicon.ico">
-  <link rel='stylesheet' href='stylesheets/bootstrap.min.css'>
-  <link rel='stylesheet' href='stylesheets/vendor.css'>
-  <link rel='stylesheet' href='stylesheets/style-brown.css'> <!-- style-brown.css, style-blue.css, style-orange.css, style-green.css -->
-  <link rel='stylesheet' href='stylesheets/custom.css'> <!-- custom style -->
-  <script src="javascripts/vendor/modernizr-2.8.3.min.js"></script>
-  <!--[if lte IE 9]><!-->
-  <script src='javascripts/vendor/html5shiv.min.js'></script>
-  <!--<![endif]-->
+  <meta name="description" content=""/>
+  <meta name="keywords" content=""/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Bootstrap CSS -->
+  <link href="stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Font Awesome CSS -->
+  <link href="stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Include all css plugins (below), or include individual files as needed -->
+  <link href="stylesheets/flickity.min.css" rel="stylesheet" type="text/css">
+  <link href="stylesheets/magnific-popup.css" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="stylesheets/theme.css" rel="stylesheet" type="text/css">
+  <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
+
+  <!-- Color Scheme CSS -->
+  <link href="stylesheets/color_orange.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body id="page-top">
 
-  <div class="site-loader _multi-circle-line">
-    <div class="site-loader-spinner"></div>
-    <div class="site-loader-section _right"></div>
-    <div class="site-loader-section _left"></div>
-  </div> <!-- .site-loader -->
+  <!-- Navigation Start -->
+  <nav id="navigation" class="navbar navbar-light navbar-toggleable-md bg-faded fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand page-scroll" href="#page-top">
+          <img src="images/logo-text-black.png" alt="" class="logo-text-black"/>
+          <img src="images/logo-text-white.png" alt="" class="logo-text-white"/>
+        </a>
 
-  <div class="site">
-    <nav class="m-nav">
-      <div class="m-nav-tb">
-        <div class="m-nav-tb-cell">
-          <!-- mobile menu will clone inside here by js script -->
-        </div>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-rinjani" aria-controls="navbar-rinjani" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
-    </nav> <!-- m-nav -->
+      <!-- //.navbar-header -->
 
-    <header class="site-header text-light">
-      <div class="site-header-container container">
-        <div class="site-header-brand">
-          <img class="site-header-brand-img" src="images/logo.jpg" alt="">
-        </div> <!-- .site-header-brand -->
-
-        <nav class="site-header-nav">
-          <div class="primary-menu">
-            <ul class="primary-menu-list nav">
-              <li class="primary-menu-item">
-                <a href="#home"><span>Home</span></a>
-              </li>
-              <li class="primary-menu-item">
-                <a href="#feature"><span>Feature</span></a>
-              </li>
-              <li class="primary-menu-item">
-                <a href="#app-brief-1"><span>Why Us</span></a>
-              </li>
-              <li class="primary-menu-item">
-                <a href="#app-brief-2"><span>What We Do</span></a>
-              </li>
-              <li class="primary-menu-item">
-                <a href="#download"><span>Download</span></a>
-              </li>
-              <li class="primary-menu-item">
-                <a href="#contact"><span>Contact</span></a>
-              </li>
-            </ul>
-          </div> <!-- .primary-menu -->
-
-          <div class="icon-menu">
-            <ul class="icon-menu-list">
-              <li class="icon-menu-item audio-toggle">
-                <a class="audio-toggle-link" href="#">
-                  <i class="ion-android-volume-up"></i>
-                </a> <!-- .audio-toggle -->
-              </li>
-              <li class="icon-menu-item hidden-md hidden-lg">
-                <a class="m-nav-toggle" href="#">
-                  <i class="ion-android-menu"></i>
-                 </a> <!-- .site-off-canvas-right-toggle -->
-              </li>
-            </ul>
-          </div> <!-- .icon-menu -->
-
-        </nav> <!-- .site-header-nav -->
+      <div class="navbar-collapse collapse flex-row-reverse" id="navbar-rinjani">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#what_we_do">What We Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </header> <!-- .site-header -->
+      <!-- //.navbar-collapse -->
+    </div>
+    <!-- //.container -->
+  </nav>
+  <!-- //Navigation End -->
 
-    <main class="site-content">
-      <div id="home" class="section text-light">
-        <div class="site-bg">
-          <div class="site-bg-img"></div>
-          <div class="site-bg-video"></div>
-          <div class="site-bg-overlay"></div>
-          <div class="site-bg-effect"></div>
-          <canvas class="site-bg-canvas"></canvas>
-        </div> <!-- .site bg -->
 
-        <div class="section-table">
-          <div class="section-cell">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-md-7 col-lg-6" data-equal-height="1">
-                  <div class="equal-height-cell">
-                    <h1 class="section-title">We are creating smart <span class="color">websites.</span></h1>
-                    <p class="m-t-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus, quis volutpat urna consequat.</p>
-                    <div class="m-t-space">
-                      <a href="#"><img class="m-t-5" src="images/item/app-store.png" alt=""></a>
-                      <a href="#"><img class="m-t-5" src="images/item/google-play.png" alt=""></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-5 col-lg-offset-1" data-equal-height="1">
-                  <div class="equal-height-cell">
-                    <div class="double-device _right">
-                      <img src="images/device/phone-01.png" class="double-device-front" alt="">
-                      <img src="images/device/phone-02.png" class="double-device-back wow animated fadeInLeftScale90" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <!-- Section - Home Start -->
+  <section id="home-bg-parallax" class="h-100 overflow-hidden p-0 w-100">
+    <!-- BG Parallax -->
+    <div class="bg-parallax bg-overlay-black-6"></div>
+
+    <div class="h-100 left-0 position-absolute top-0 w-100">
+      <div class="container h-100">
+        <div class="row align-items-center h-100 justify-content-center">
+          <div class="col-lg-8 pt-3 text-center">
+            <span class="d-block font-alt font-w-600 letter-spacing-2 text-medium text-uppercase text-white">
+              Introducing BlockTrain
+            </span>
+
+            <span class="bg-base-color d-inline-block mt-4 sep-line-medium-thick"></span>
+
+            <h2 class="font-alt font-w-600 letter-spacing-2 mb-3 mt-3 text-uppercase text-white title-xs-extra-large title-extra-large-2">
+              A media platform dedicated to content curation and strategies for the global blockchain community
+            </h2>
+
+            <span class="d-block font-alt letter-spacing-2 mb-3 mt-4 text-large text-white">
+              We are hosting a conference with the Draper Dragon Fund.
+            </span>
+
+            <a href="https://blocktrainsv.com/" target="_blank" class="page-scroll btn btn-base-color btn-large btn-shadow mr-0 mt-4">Global Blockchain Technology Summit</a>
           </div>
+          <!-- //.col-lg-8 -->
         </div>
-      </div> <!-- #home -->
-
-      <div id="feature" class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="text-center max-width-640">
-                <h3 class="section-subtitle">App Overview</h3>
-                <h2 class="section-title">Our Features<span class="color">.</span></h2>
-                <p class="m-t-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus.</p>
-              </div>
-              <ul class="feature feature-list row m-t-space">
-                <li class="feature-item col-xs-12 col-md-6 col-md-4">
-                  <div class="feature-box">
-                    <div class="feature-icon">
-                      <i class="ion-ios-lightbulb-outline"></i>
-                    </div>
-                    <h3 class="feature-title">Full responsive</h3>
-                    <p class="feature-content">Lorem ipsum dolor sit amet consectetur, elit adipiscing.</p>
-                  </div>
-                </li>
-                <li class="feature-item col-xs-12 col-md-6 col-md-4">
-                  <div class="feature-box">
-                    <div class="feature-icon">
-                      <i class="ion-ios-game-controller-b-outline"></i>
-                    </div>
-                    <h3 class="feature-title">Easy To Use</h3>
-                    <p class="feature-content">Lorem ipsum dolor sit amet consectetur, elit adipiscing.</p>
-                  </div>
-                </li>
-                <li class="feature-item col-xs-12 col-md-6 col-md-4">
-                  <div class="feature-box">
-                    <div class="feature-icon">
-                      <i class="ion-ios-compose-outline"></i>
-                    </div>
-                    <h3 class="feature-title">Valid HTML5</h3>
-                    <p class="feature-content">Lorem ipsum dolor sit amet consectetur, elit adipiscing.</p>
-                  </div>
-                </li>
-                <li class="feature-item col-xs-12 col-md-6 col-md-4">
-                  <div class="feature-box">
-                    <div class="feature-icon">
-                      <i class="ion-ios-speedometer-outline"></i>
-                    </div>
-                    <h3 class="feature-title">Mobile Optimization</h3>
-                    <p class="feature-content">Lorem ipsum dolor sit amet consectetur, elit adipiscing.</p>
-                  </div>
-                </li>
-                <li class="feature-item col-xs-12 col-md-6 col-md-4">
-                  <div class="feature-box">
-                    <div class="feature-icon">
-                      <i class="ion-ios-camera-outline"></i>
-                    </div>
-                    <h3 class="feature-title">Multi Effect</h3>
-                    <p class="feature-content">Lorem ipsum dolor sit amet consectetur, elit adipiscing.</p>
-                  </div>
-                </li>
-                <li class="feature-item col-xs-12 col-md-6 col-md-4">
-                  <div class="feature-box">
-                    <div class="feature-icon">
-                      <i class="ion-ios-flame-outline"></i>
-                    </div>
-                    <h3 class="feature-title">Fast Support</h3>
-                    <p class="feature-content">Lorem ipsum dolor sit amet consectetur, elit adipiscing.</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div> <!-- #feature -->
-
-      <div id="app-brief-1" class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-6 col-md-offset-1 float-right-md-min" data-equal-height="2">
-              <div class="equal-height-cell">
-                <h3 class="section-subtitle">Why choose us?</h3>
-                <h2 class="section-title">We build websites that work, <span class="color">really work.</span></h2>
-                <p class="m-t-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus, quis volutpat urna consequats.</p>
-                <div class="selling-point">
-                  <ul class="selling-point-list">
-                    <li class="selling-point-item"><i class="ion-ios-checkmark"></i>View photos of business listings</li>
-                    <li class="selling-point-item"><i class="ion-ios-checkmark"></i>Call any business by just one tap</li>
-                    <li class="selling-point-item"><i class="ion-ios-checkmark"></i>Sort your search results by attributes</li>
-                    <li class="selling-point-item"><i class="ion-ios-checkmark"></i>Add your business listing FREE of charge</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-md-5" data-equal-height="2">
-              <div class="equal-height-cell">
-                <div class="double-device _left">
-                  <img src="images/device/phone-03.png" class="double-device-front" alt="">
-                  <img src="images/device/phone-04.png" class="double-device-back wow animated fadeInLeftScale90" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> <!-- #app-brief-1-->
-
-      <div id="app-brief-2" class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-6" data-equal-height="3">
-              <div class="equal-height-cell">
-                <h3 class="section-subtitle">What we do?</h3>
-                <h2 class="section-title">We build websites that will build your <span class="color">business.</span></h2>
-                <p class="m-t-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus, quis volutpat urna consequat et. Aenean rutrum dui in turpis feugiat</p>
-                <p>facilisis dui laoreet. Nunc vestibulum nisi in dolor suscipit consectetur. Morbi pulvinar, magna vel sollicitudin porttitor, nulla nulla semper turpis.</p>
-                <ul class="service service-list row">
-                  <li class="service-item col-xs-6 col-sm-3 wow animated bounceIn" data-wow-delay=".1s">
-                    <div class="service-icon">
-                      <i class="ion-ios-speedometer-outline"></i>
-                    </div>
-                    <h5 class="service-title">Speed</h5>
-                  </li>
-                  <li class="service-item col-xs-6 col-sm-3 wow animated bounceIn" data-wow-delay=".2s">
-                    <div class="service-icon">
-                      <i class="ion-ios-film-outline"></i>
-                    </div>
-                    <h5 class="service-title">Photo</h5>
-                  </li>
-                  <li class="service-item col-xs-6 col-sm-3 wow animated bounceIn" data-wow-delay=".3s">
-                    <div class="service-icon">
-                      <i class="ion-ios-chatboxes-outline"></i>
-                    </div>
-                    <h5 class="service-title">Chat</h5>
-                  </li>
-                  <li class="service-item col-xs-6 col-sm-3 wow animated bounceIn" data-wow-delay=".4s">
-                    <div class="service-icon">
-                      <i class="ion-ios-people-outline"></i>
-                    </div>
-                    <h5 class="service-title">Social</h5>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xs-12 col-md-5 col-md-offset-1" data-equal-height="3">
-              <div class="equal-height-cell">
-                <div class="double-device _right">
-                  <img src="images/device/screen-01.jpg" class="double-device-front" alt="">
-                  <img src="images/device/screen-02.jpg" class="double-device-back wow animated fadeInLeftScale90" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> <!-- #app-brief-2 -->
-
-      <div id="download" class="section text-light" data-stellar-background-ratio=".5">
-        <div class="section-overlay"></div>
-        <div class="container">
-          <div class="row relative">
-            <div class="col-md-6 float-right-md-min">
-              <h3 class="section-subtitle">Download available</h3>
-              <h2 class="section-title">Get our app for your mobile devices, check it out <span class="color">now!</span></h2>
-              <p class="m-t-space">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus.</p>
-              <div class="m-t-space">
-                <a href="#"><img class="m-t-5" src="images/item/app-store.png" alt=""></a>
-                <a href="#"><img class="m-t-5" src="images/item/google-play.png" alt=""></a>
-              </div>
-            </div>
-            <div id="donload-device" class="double-device _left _bottom">
-              <img src="images/device/phone-01.png" class="double-device-front" alt="">
-              <img src="images/device/phone-02.png" class="double-device-back wow animated fadeInUpScale90" alt="">
-            </div>
-          </div>
-        </div>
-      </div> <!-- #download -->
-
-      <div id="contact" class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <div class="text-center max-width-640">
-                <h3 class="section-subtitle">Contact us</h3>
-                <h2 class="section-title">Get in touch<span class="color">.</span></h2>
-                <p class="m-t-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in scelerisque nisi, a convallis nibh. Etiam posuere faucibus lectus.</p>
-              </div>
-              <ul class="contact-info contact-info-list row max-width-960 text-center">
-                <li class="contact-info-item col-xs-12 col-md-6 col-md-4">
-                  <div class="contact-info-box">
-                    <div class="contact-info-icon">
-                      <i class="ion-ios-telephone-outline"></i>
-                    </div>
-                    <h3 class="contact-info-title">Call us</h3>
-                    <p class="contact-info-content">
-                      (+0) 123-456-7890
-                      <br>
-                      (+1) 123-456-7890
-                    </p>
-                  </div>
-                </li>
-                <li class="contact-info-item col-xs-12 col-md-6 col-md-4">
-                  <div class="contact-info-box">
-                    <div class="contact-info-icon">
-                      <i class="ion-ios-filing-outline"></i>
-                    </div>
-                    <h3 class="contact-info-title">Write us</h3>
-                    <p class="contact-info-content">
-                      email1@example.com
-                      <br>
-                      email2@example.com
-                    </p>
-                  </div>
-                </li>
-                <li class="contact-info-item col-xs-12 col-md-6 col-md-4">
-                  <div class="contact-info-box">
-                    <div class="contact-info-icon">
-                      <i class="ion-ios-location-outline"></i>
-                    </div>
-                    <h3 class="contact-info-title">Visit us</h3>
-                    <p class="contact-info-content">631 Main Street Cottage, Long Branch, P.O Box 55016</p>
-                  </div>
-                </li>
-              </ul> <!-- .contact-info -->
-
-              <form class="form-theme max-width-960" id="contactForm" novalidate="novalidate">
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="form-group required">
-                      <label class="form-label" for="contactName">Name</label>
-                      <input class="form-control" id="contactName" type="text" name="name">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group required">
-                      <label class="form-label" for="contactEmail">Email</label>
-                      <input class="form-control" id="contactEmail" type="text" name="email">
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group required">
-                  <label class="form-label" for="contactMessage">Message</label>
-                  <textarea class="form-control" id="contactMessage" rows="5" name="message"></textarea>
-                </div>
-                <button type="submit" class="btn _theme">
-                  <span>Send Message</span>
-                  <i class="ion-forward"></i>
-                </button>
-                <div class="form-notify"></div>
-              </form> <!-- #contactForm -->
-            </div>
-          </div>
-        </div>
-      </div> <!-- #contact -->
-    </main> <!-- .site-content -->
-
-    <footer class="site-footer text-light text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="site-footer-brand">
-              <img class="site-footer-brand-img" src="images/site-footer-brand.png" alt="">
-            </div> <!-- .site-footer-brand -->
-            <div class="social m-t-space">
-              <ul class="social-list">
-                <li class="social-item wow animated fadeInUp" data-wow-duration="0.5s">
-                  <a href="https://www.facebook.com/" target="_blank"><i class="ion-social-facebook"></i></a>
-                </li>
-                <li class="social-item wow animated rollIn" data-wow-delay="0.2s" data-wow-duration="0.5s">
-                  <a href="https://twitter.com/" target="_blank"><i class="ion-social-twitter"></i></a>
-                </li>
-                <li class="social-item wow animated rollIn" data-wow-delay="0.3s" data-wow-duration="0.5s">
-                  <a href="https://plus.google.com/" target="_blank"><i class="ion-social-googleplus"></i></a>
-                </li>
-                <li class="social-item wow animated rollIn" data-wow-delay="0.4s" data-wow-duration="0.5s">
-                  <a href="https://www.linkedin.com/" target="_blank"><i class="ion-social-linkedin"></i></a>
-                </li>
-                <li class="social-item wow animated rollIn" data-wow-delay="0.5s" data-wow-duration="0.5s">
-                  <a href="https://dribbble.com/" target="_blank"><i class="ion-social-dribbble"></i></a>
-                </li>
-              </ul>
-              <p class="copyright m-t-space">
-                2015 @ <a href="#" target="_blank">Bonefishcode</a> | All rights Reserved.
-              </p>
-            </div> <!-- .social -->
-          </div>
-        </div>
+        <!-- //.row -->
       </div>
-    </footer> <!-- .site-footer -->
-  </div> <!-- .site -->
+      <!-- //.container -->
+    </div>
+    <!-- //.h-100 -->
+  </section>
+  <!-- //Section - Home End -->
 
-  <!-- script -->
-  <script src="javascripts/vendor/jquery-1.11.3.min.js"></script>
-  <script src='javascripts/vendor/bootstrap.min.js'></script>
-  <script src='javascripts/vendor/plugin.js'></script>
-  <script src='javascripts/variable.js'></script>
-  <script src='javascripts/main.js'></script>
+  <!-- Section - About Start -->
+  <section id="about" class="bg-white">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-lg-9 pb-lg-4 text-center">
+          <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">about us</h3>
+          <!-- <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">Some things you should know about us</p> -->
+          <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+        </div>
+        <!-- //.col-lg-9 -->
+      </div>
+      <!-- //.row -->
 
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-  <!--
-  <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-  </script>
-  -->
-  <!-- /script -->
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="carousel-custom" data-pagedots="true" data-draggable="false" data-autoplay="5000">
+            <div class="carousel-cell w-100">
+              <img src="images/about-1.jpg" alt="" class="img-fluid box-shadow-shallow rounded"/>
+            </div>
+            <!-- //.carousel-cell -->
+
+            <div class="carousel-cell w-100">
+              <img src="images/about-2.jpg" alt="" class="img-fluid box-shadow-shallow rounded"/>
+            </div>
+            <!-- //.carousel-cell -->
+
+            <div class="carousel-cell w-100">
+              <img src="images/about-3.jpg" alt="" class="img-fluid box-shadow-shallow rounded"/>
+            </div>
+            <!-- //.carousel-cell -->
+          </div>
+          <!-- //.carousel-custom -->
+        </div>
+        <!-- //.col-lg-6 -->
+
+        <div class="col-lg-6">
+          <div class="pl-lg-4 pt-5 pt-lg-0">
+            <p class="font-alt text-extra-large">BlockTrain is a global blockchain media platform serving North America and Greater China markets. It is headquartered in Silicon Valley and has operation team in Beijing, China. BlockTrain curates high-quality and original video, verbal and written content in both English and Chinese. We are dedicated to provide information, education and insights about the distributed ledger technology through our various media channels by curating technology reviews, interviewing industry leaders, organizing development workshops, providing online training, and hosting global conferences.</p>
+          </div>
+          <!-- //.pl-lg-4 -->
+        </div>
+        <!-- //.col-lg-6 -->
+      </div>
+      <!-- //.row -->
+    </div>
+    <!-- //.container -->
+  </section>
+  <!-- //Section - About End -->
+
+  <!-- Section - Services Start -->
+  <section id="what_we_do" class="bg-gray-light">
+    <div class="container position-inherit">
+      <div class="row justify-content-center pb-5">
+        <div class="col-lg-9 pb-lg-4 text-center">
+          <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">what we do</h3>
+          <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+        </div>
+        <!-- //.col-lg-9 -->
+      </div>
+      <!-- //.row -->
+
+      <div class="row">
+        <div class="col-md-3 mt-5 mt-md-0 position-inherit">
+          <div class="features-block text-center">
+            <div class="block-icon ease">
+              <i class="fa fa-lightbulb-o ease"></i>
+            </div>
+            <!-- //.block-icon -->
+
+            <span class="d-block font-alt letter-spacing-2 mt-4 text-uppercase title-medium">BlockTrain News & Reviews</span>
+            <span class="bg-base-color d-inline-block mt-2 sep-line"></span>
+            <p class="mt-2 text-large">BlockTrain produces news and reviews on the cutting edge of the blockchain technology and its applications in various industries. BlockTrain develops the critical insights for the global blockchain community in terms of technology, application, market, and regulation.</p>
+          </div>
+          <!-- //.features-block -->
+        </div>
+        <!-- //.col-md-4 -->
+
+        <div class="col-md-3 mt-5 mt-md-0 position-inherit">
+          <div class="features-block text-center">
+            <div class="block-icon ease">
+              <i class="fa fa-heart-o ease"></i>
+            </div>
+            <!-- //.block-icon -->
+
+            <span class="d-block font-alt letter-spacing-2 mt-4 text-uppercase title-medium">BlockTrain Talk</span>
+            <span class="bg-base-color d-inline-block mt-2 sep-line"></span>
+            <p class="mt-2 text-large">BlockTrain is a video content pioneer in the blockchain community. The founder of BlockTrain has produced interviews with many blockchain projects, such as DFINITY, R3, Bitcoin Gold, Veem, ConsenSys, Hash World, and Trade Terminal. BlockTrain aims to promote the blockchain technology through our original video series.</p>
+          </div>
+          <!-- //.features-block -->
+        </div>
+        <!-- //.col-md-4 -->
+
+        <div class="col-md-3 mt-5 mt-md-0 position-inherit">
+          <div class="features-block border-0 text-center">
+            <div class="block-icon ease">
+              <i class="fa fa-flask ease"></i>
+            </div>
+            <!-- //.block-icon -->
+
+            <span class="d-block font-alt letter-spacing-2 mt-4 text-uppercase title-medium">BlockTrain Training</span>
+            <span class="bg-base-color d-inline-block mt-2 sep-line"></span>
+            <p class="mt-2 text-large">BlockTrain has been developing a platform that provides training on the distributed ledger technology. Partnering with world-class academic institutions, we offer video courses on the most up-to-date blockchain subjects, tailoring training sessions for both individuals and corporate organizations.</p>
+          </div>
+          <!-- //.features-block -->
+        </div>
+        <!-- //.col-md-4 -->
+
+        <div class="col-md-3 mt-5 mt-md-0 position-inherit">
+          <div class="features-block border-0 text-center">
+            <div class="block-icon ease">
+              <i class="fa fa-flask ease"></i>
+            </div>
+            <!-- //.block-icon -->
+
+            <span class="d-block font-alt letter-spacing-2 mt-4 text-uppercase title-medium">BlockTrain PR Service</span>
+            <span class="bg-base-color d-inline-block mt-2 sep-line"></span>
+            <p class="mt-2 text-large">BlockTrain develops custom public relations strategies to promote blockchain projects in the United States and China. BlockTrain offers a variety of services, including mainstream media coverage, branding within the blockchain community, event planning, and media content production.</p>
+          </div>
+          <!-- //.features-block -->
+        </div>
+        <!-- //.col-md-4 -->
+      </div>
+      <!-- //.row -->
+    </div>
+    <!-- //.container -->
+  </section>
+  <!-- //Section - Services End -->
+
+  <!-- Section - Team Start -->
+  <section id="team" class="bg-white">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-lg-9 pb-lg-4 text-center">
+          <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Meet The Team</h3>
+          <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">We are here to help you with anything you need</p>
+          <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+        </div>
+        <!-- //.col-lg-9 -->
+      </div>
+      <!-- //.row -->
+
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <figure class="team-block rounded">
+            <img src="images/team-1.jpg" alt="" class="img-fluid ease rounded">
+
+            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
+              <div class="d-table h-100 position-relative px-4 w-100">
+                <div class="d-table-cell align-middle text-center">
+                  <span class="d-block font-alt letter-spacing-2 title-medium text-uppercase text-white">Nick Carraway</span>
+                  <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
+                  <span class="d-block font-alt letter-spacing-2 mt-3 text-medium text-uppercase text-white">ECD / Founder</span>
+                </div>
+                <!-- //.d-table-cell -->
+              </div>
+              <!-- //.d-table -->
+            </figcaption>
+          </figure>
+        </div>
+        <!-- //.col-md-6 -->
+
+        <div class="col-md-6 col-lg-3">
+          <figure class="team-block rounded">
+            <img src="images/team-2.jpg" alt="" class="img-fluid ease rounded">
+
+            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
+              <div class="d-table h-100 position-relative px-4 w-100">
+                <div class="d-table-cell align-middle text-center">
+                  <span class="d-block font-alt letter-spacing-2 title-medium text-uppercase text-white">Daisy Buchanan</span>
+                  <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
+                  <span class="d-block font-alt letter-spacing-2 mt-3 text-medium text-uppercase text-white">CEO / Co-Founder</span>
+                </div>
+                <!-- //.d-table-cell -->
+              </div>
+              <!-- //.d-table -->
+            </figcaption>
+          </figure>
+        </div>
+        <!-- //.col-md-6 -->
+
+        <div class="col-md-6 col-lg-3">
+          <figure class="team-block rounded">
+            <img src="images/team-3.jpg" alt="" class="img-fluid ease rounded">
+
+            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
+              <div class="d-table h-100 position-relative px-4 w-100">
+                <div class="d-table-cell align-middle text-center">
+                  <span class="d-block font-alt letter-spacing-2 title-medium text-uppercase text-white">Myrtle Wilson</span>
+                  <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
+                  <span class="d-block font-alt letter-spacing-2 mt-3 text-medium text-uppercase text-white">Creative Director</span>
+                </div>
+                <!-- //.d-table-cell -->
+              </div>
+              <!-- //.d-table -->
+            </figcaption>
+          </figure>
+        </div>
+        <!-- //.col-md-6 -->
+
+        <div class="col-md-6 col-lg-3">
+          <figure class="team-block rounded">
+            <img src="images/team-4.jpg" alt="" class="img-fluid ease rounded">
+
+            <figcaption class="ease h-100 left-0 position-absolute rounded top-0 w-100">
+              <div class="d-table h-100 position-relative px-4 w-100">
+                <div class="d-table-cell align-middle text-center">
+                  <span class="d-block font-alt letter-spacing-2 title-medium text-uppercase text-white">Catherine Kelly</span>
+                  <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
+                  <span class="d-block font-alt letter-spacing-2 mt-3 text-medium text-uppercase text-white">Public Relation</span>
+                </div>
+                <!-- //.d-table-cell -->
+              </div>
+              <!-- //.d-table -->
+            </figcaption>
+          </figure>
+        </div>
+        <!-- //.col-md-6 -->
+      </div>
+      <!-- //.row -->
+    </div>
+    <!-- //.container -->
+  </section>
+  <!-- //Section - Team End -->
+
+  <!-- Section - History Start -->
+  <section id="events" class="bg-white">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-lg-9 pb-lg-4 text-center">
+          <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">events</h3>
+          <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">Travel through time with us!</p>
+          <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+        </div>
+        <!-- //.col-lg-9 -->
+      </div>
+      <!-- //.row -->
+
+      <div class="row justify-content-center">
+        <div class="col">
+          <div class="timeline clearfix py-2 py-lg-5">
+            <div class="timeline-item">
+              <div class="card box-shadow">
+                <img src="images/history-1.jpg" alt="" class="card-img-top img-fluid">
+
+                <div class="card-block">
+                  <div class="p-2">
+                    <h4 class="card-title font-alt m-0 title-large">Global Blockchain Technology Summit</h4>
+                    <span class="bg-base-color d-inline-block mt-2 sep-line-thick"></span>
+                    <p class="card-text mt-2 text-large">BlockTrain and Draper Dragon are hosting the Global Blockchain Technology Summit on May 6th, 2018 at the Santa Clara Convention Center in Silicon Valley, USA. The event plans to attract more than 1,500 attendees from all over the world. This summit will be the first of its kind focusing on the distributed ledger technology projects. There will be 40 selected top-notch blockchain projects presenting their products, services, technology innovation, development progress and expansion roadmaps. Another 20+ blockchain companies at different growth stages will showcase their projects in our exhibition area.</p>
+                    <a href="https://blocktrainsv.com/" target="_blank" class="page-scroll btn btn-base-color btn-large btn-shadow mr-0 mt-4">Join Summit</a>
+                  </div>
+                  <!-- //.p-2 -->
+                </div>
+                <!-- //.card-block -->
+              </div>
+              <!-- //.card -->
+            </div>
+            <!-- //.timeline-item -->
+          </div>
+          <!-- //.timeline -->
+        </div>
+        <!-- //.col -->
+      </div>
+      <!-- //.row -->
+    </div>
+    <!-- //.container -->
+  </section>
+  <!-- //Section - History End -->
+
+  <!-- Section - Contact Start -->
+  <section id="contact" class="bg-cover bg-gray bg-overlay-black-6">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-white">
+          <h3 class="font-alt font-w-600 letter-spacing-2 text-uppercase title-xs-small title-extra-large-2">Contact</h3>
+          <p class="font-alt mb-0 mt-3 text-xs-large text-uppercase title-medium">Don't hesitate to contact us</p>
+          <span class="bg-base-color d-inline-block mt-4 sep-line-thick-long"></span>
+
+          <div class="mt-4 text-extra-large text-white">
+            <p>Don't hesitate to contact us</p>
+            <span class="d-block">Email: mzhang@blocktrainmedia.com</span>
+          </div>
+          <!-- //.mt-4 -->
+        </div>
+        <!-- //.col-lg-6 -->
+
+        <div class="col-lg-6 mt-5 mt-lg-0">
+          <form action="contact/send_mail.php" method="post" id="form-contact">
+            <div class="form-group">
+              <span class="d-block font-alt letter-spacing-1 text-medium text-uppercase text-white">Your Name</span>
+              <input type="text" name="name" class="font-alt form-control mt-2 required" id="name" placeholder="">
+            </div>
+            <!-- //.form-group -->
+
+            <div class="form-group">
+              <span class="d-block font-alt letter-spacing-1 text-medium text-uppercase text-white">Your Email</span>
+              <input type="email" name="email" class="font-alt form-control mt-2 required email" id="email" placeholder="">
+            </div>
+            <!-- //.form-group -->
+
+            <div class="form-group">
+              <span class="d-block font-alt letter-spacing-1 text-medium text-uppercase text-white">Message</span>
+              <textarea name="message" class="font-alt form-control mt-2 required" id="message" rows="6" placeholder=""></textarea>
+            </div>
+            <!-- //.form-group -->
+
+            <span class="d-block font-alt letter-spacing-1 text-small text-uppercase text-white">*Please complete all fields correctly</span>
+            <button type="submit" class="btn btn-shadow btn-base-color mt-4 text-uppercase" id="btn-form-contact">Send Message</button>
+          </form>
+        </div>
+        <!-- //.col-lg-6 -->
+      </div>
+      <!-- //.row -->
+    </div>
+    <!-- //.container -->
+  </section>
+  <!-- //Section - Contact End -->
+
+  <!-- Footer Start -->
+  <footer class="bg-white py-5">
+    <div class="container">
+      <div class="row align-items-center pb-5">
+        <div class="col-md-4 text-center text-md-left">
+          <img src="images/logo-text-black.png" alt="" class="footer-logo opacity-5"/>
+        </div>
+        <!-- //.col-md-8 -->
+
+        <div class="col-md-8">
+          <ul class="footer-icon-social mb-0 mt-4 p-0 text-center text-md-right title-xs-small title-medium">
+            <li class="list-inline-item">
+              <a href="#" class="text-gray-dark"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item pl-4">
+              <a href="#" class="text-gray-dark"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item pl-4">
+              <a href="#" class="text-gray-dark"><i class="fa fa-google-plus"></i></a>
+            </li>
+            <li class="list-inline-item pl-4">
+              <a href="#" class="text-gray-dark"><i class="fa fa-pinterest"></i></a>
+            </li>
+            <li class="list-inline-item pl-4">
+              <a href="#" class="text-gray-dark"><i class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- //.col-md-8 -->
+      </div>
+      <!-- //.row -->
+
+      <div class="row align-items-center border-top pt-5">
+        <div class="col text-center">
+          <span class="font-alt font-w-600 letter-spacing-1 text-gray-dark text-small text-uppercase">&copy; 2018 @ BlockTrain | All rights Reserved.</span>
+        </div>
+        <!-- //.col -->
+      </div>
+      <!-- //.row -->
+    </div>
+    <!-- //.container -->
+  </footer>
+  <!-- //Footer End -->
+
+
+  <!-- Scroll to top -->
+  <a href="#page-top" class="page-scroll scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+  <!-- Main JS -->
+  <script src="javascripts/jquery.min.js"></script>
+  <script src="javascripts/tether.min.js"></script>
+  <script src="javascripts/bootstrap.min.js"></script>
+
+  <!-- Include all js plugins (below) -->
+  <script src="javascripts/pace.min.js"></script>
+  <script src="javascripts/jquery.easing.min.js"></script>
+  <script src="javascripts/jquery.inview.min.js"></script>
+  <script src="javascripts/jquery.countTo.js"></script>
+  <script src="javascripts/imagesloaded.pkgd.min.js"></script>
+  <script src="javascripts/flickity.pkgd.min.js"></script>
+  <script src="javascripts/isotope.pkgd.min.js"></script>
+  <script src="javascripts/jquery.magnific-popup.min.js"></script>
+  <script src="javascripts/jquery.easypiechart.min.js"></script>
+  <script src="javascripts/jquery.countdown.min.js"></script>
+  <script src="javascripts/jquery.validate.min.js"></script>
+
+  <!-- BG Parallax -->
+  <script src="javascripts/lib/greensock/TweenMax.min.js"></script>
+  <script src="javascripts/ScrollMagic.min.js"></script>
+  <script src="javascripts/animation.gsap.min.js"></script>
+
+  <!-- Theme JS -->
+  <script src="javascripts/theme.js"></script>
 
 </body>
 </html>
