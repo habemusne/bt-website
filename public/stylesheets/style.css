@@ -64,10 +64,10 @@
 * Section - Skills
 */
 
-#skills {
-    background-image: url("../images/bg-skills.jpg");
+/*#what_we_do {
+    background-image: url("../images/bg-what_we_do.jpg");
 }
-
+*/
 
 /*
 * Section - Quote
@@ -123,4 +123,9 @@
 */
 .position-inherit {
     position: inherit;
+}
+.only-profile {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
