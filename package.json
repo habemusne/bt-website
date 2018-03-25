@@ -16,6 +16,8 @@
     "nodemon": "^1.17.2"
   },
   "devDependencies": {
-    "ejs": "^2.5.7"
+    "dotenv": "^5.0.1",
+    "ejs": "^2.5.7",
+    "nodemailer": "^4.6.3"
   }
 }
