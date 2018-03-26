@@ -136,3 +136,9 @@
 .custom__timer_number {
     display: inline !important;
 }
+.nav-link {
+    color: black !important;
+}
+.navbar {
+    background-color: white !important;
+}

@@ -1400,7 +1400,7 @@ label.error {
     padding: 8px 0;
 }
 .navbar .nav-link {
-    color: #ffffff !important;
+    color: #ffffff;
     display: inline-block;
     font-family: "Montserrat", sans-serif;
     font-size: 0.688rem;
