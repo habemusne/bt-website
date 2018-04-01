@@ -1,7 +1,7 @@
 # 安装
 
 1. `git clone`这份代码
-2. `cd express`
+2. `cd blocktrain`
 3. `npm i` (如果没有npm, 请安装)
 4. `cp env.template .env`
 5. 在`.env`替换掉那些变量。可以问客户要，或者我私下给你
